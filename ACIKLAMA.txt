@@ -1,0 +1,12 @@
+*****************     VUE MOVIE APP     ***************
+
+*
+api key https://www.omdbapi.com/apikey.aspx
+bunu kullanabilmek için src > env.js oluşturup içine
+mail ile gelen apikey imizi koyuyoruz, env.js e dışarıdan ulaşılamaz
+export default {
+    apikey : "******"
+}
+
+*
+ 
