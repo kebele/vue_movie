@@ -2,8 +2,13 @@
   <div class="home">
     <div class="feature-card">
       <router-link to="/movie/tt0409591">
-        <img
+        <!-- <img
           src="https://m.media-amazon.com/images/M/MV5BZmQ5NGFiNWEtMmMyMC00MDdiLTg4YjktOGY5Yzc2MDUxMTE1XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg"
+          alt="Naruto Poster"
+          class="featured-img"
+        /> -->
+        <img
+          src="../assets/pexels-louis-1200450.jpg"
           alt="Naruto Poster"
           class="featured-img"
         />
@@ -38,6 +43,7 @@
         </router-link>
       </div>
     </div>
+    <p class="footer"><a href="https://www.youtube.com/channel/UCBBGM84ZOs7z5jpTQAaZ_Hg">thanks to Tyler Potts for this app!</a></p>
   </div>
 </template>
 
@@ -215,5 +221,13 @@ export default {
       }
     }
   }
+}
+
+.footer{
+  position : fixed;
+  bottom: 5%;
+  right: 5%;
+  font-size: 16px;
+  background-color: gainsboro;
 }
 </style>
