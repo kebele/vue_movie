@@ -20,7 +20,7 @@ export default {
 
         onBeforeMount(() => {
             // console.log("before mount")
-            fetch(`http://www.omdbapi.com/?apikey=${env.apikey}&i=${route.params.id}&plot=full`)
+            fetch(`https://www.omdbapi.com/?apikey=${env.apikey}&i=${route.params.id}&plot=full`)
                 .then(res => res.json())
                 .then(data => {
                     console.log(data);
